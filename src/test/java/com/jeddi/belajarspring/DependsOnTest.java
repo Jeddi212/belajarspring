@@ -17,6 +17,6 @@ public class DependsOnTest {
 
     @Test
     void testDependsOn() {
-        Foo foo = applicationContext.getBean(Foo.class);
+        applicationContext.getBean(Foo.class);
     }
 }
